@@ -33,21 +33,18 @@
         margin:auto;
     ">
 
-        <!-- Gambar 1 -->
         <div style="flex:0 0 auto; width:240px;">
         <img src='{{ asset("image/imagef1.png") }}'
             alt='Mangrove planting'
             style='width:240px; height:425px; object-fit:cover;'>
         </div>
 
-        <!-- Gambar 2 -->
         <div style="flex:0 0 auto; width:240px;">
         <img src='{{ asset("image/imagef2.png") }}'
             alt='Mangrove sapling'
             style='width:240px; height:281px; object-fit:cover;'>
         </div>
 
-        <!-- Bagian Tengah -->
         <div style="
         flex:0 0 auto;
         width:260px;
@@ -59,7 +56,6 @@
         text-align:center;
         margin:0 10px;
         ">
-        <!-- Tombol di paling atas -->
         <a href="#"
             style="display:inline-block; background-color:#2c7a34; color:#fff;
                     padding:12px 32px; border-radius:30px; font-weight:600; font-size:15px;
@@ -67,20 +63,17 @@
             Support Our Mission
         </a>
 
-        <!-- Gambar 3 -->
         <img src='{{ asset("image/imagef3.png") }}'
             alt='Mangrove volunteers'
             style='width:240px; height:161px; object-fit:cover; margin-top:200px;'>
         </div>
 
-        <!-- Gambar 4 -->
         <div style="flex:0 0 auto; width:240px;">
         <img src='{{ asset("image/imagef4.png") }}'
             alt='Mangrove young tree'
             style='width:240px; height:281px; object-fit:cover;'>
         </div>
 
-        <!-- Gambar 5 -->
         <div style="flex:0 0 auto; width:240px;">
         <img src='{{ asset("image/imagef5.png") }}'
             alt='Mangrove tree'

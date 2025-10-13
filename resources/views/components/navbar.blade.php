@@ -85,26 +85,6 @@
         transform: translateY(-2px);
     }
 
-    @media (max-width: 768px) {
-        nav {
-            padding: 0 20px;
-            height: 60px;
-        }
-
-        .nav-menu {
-            display: none;
-        }
-
-        .navbar-right .btn-plant {
-            padding: 5px 18px;
-            font-size: 12px;
-        }
-
-        .logo {
-            width: 120px;
-            height: 40px;
-        }
-    }
 </style>
 <body>
     <nav id="navbar">
@@ -112,9 +92,9 @@
 
         <ul class="nav-menu">
             <li><a href="#about">About Green Haven</a></li>
-            <li><a href="#events">Event Details</a></li>
-            <li><a href="#sponsors">Our Sponsors</a></li>
-            <li><a href="#leaderboard">Leaderboard</a></li>
+            <li><a href="#event">Event Details</a></li>
+            <li><a href="#sponsorship">Our Sponsors</a></li>
+            <li><a href="home1">Leaderboard</a></li>
         </ul>
 
         <div class="navbar-right">
